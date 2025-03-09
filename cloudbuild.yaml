@@ -13,3 +13,6 @@ steps:
     args: ["apply", "-auto-approve"]
 
 timeout: "1200s"  # Increase timeout if needed
+
+options:
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
