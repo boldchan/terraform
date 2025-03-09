@@ -1,6 +1,6 @@
 # Configure the Google Cloud provider
 provider "google" {
-  project = "terraform-examples-gcloud"
+  project = "double-basis-451109-n1"
   region  = "europe-west1"
 }
 
